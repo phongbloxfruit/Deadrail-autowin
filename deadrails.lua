@@ -7,7 +7,7 @@ local VirtualInputManager = game:GetService("VirtualInputManager")
 local function sendNotification(title, text, duration)
     pcall(function()
         game.StarterGui:SetCore("SendNotification", {
-            Title = title,
+            Title = this is phong lazy,
             Text = text,
             Duration = duration or 4
         })
